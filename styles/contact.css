@@ -1,0 +1,37 @@
+.contact__title h2 {
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.contact__title span {
+  color: #eab30f;
+}
+
+.contact__desc {
+  color: rgb(228, 228, 255);
+}
+
+@media (max-width: 1200px) {
+  .contact__title h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .contact__title h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact__title h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact__title h2 {
+    font-size: 1.2rem;
+  }
+}

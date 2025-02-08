@@ -1,0 +1,70 @@
+.card__title-group .title-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.card__title-group .title-box h2 {
+  color: #0272c7;
+  font-weight: bold;
+}
+
+.card__title-group .title-box span {
+  font-weight: bold;
+}
+
+.card__title-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project__cards-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  overflow-x: auto;
+  justify-content: space-between;
+  margin-top: 1rem;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 11 */
+}
+
+.project__cards-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Chrome, Safari, and Edge */
+}
+
+.project__card {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  width: calc(25% - 20px); /* 4 columns */
+  min-width: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project__card img {
+  width: 100%;
+  height: 280px; /* Adjust this as needed */
+  object-fit: cover;
+}
+
+.project__card div {
+  padding: 15px;
+  text-align: left;
+}
+
+.project__card h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.project__card span {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #be9310;
+}

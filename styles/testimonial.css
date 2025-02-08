@@ -1,0 +1,25 @@
+.testimonials .title-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.testimonials .title-box h2 {
+  color: #0272c7;
+  font-weight: bold;
+}
+
+.testimonials .title-box span {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.testimonials .card {
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials img {
+  width: 50px;
+  height: 50px;
+}
